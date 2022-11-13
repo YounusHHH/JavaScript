@@ -1,0 +1,57 @@
+function fibonacciGenerator (n) {
+    //TODO
+    var fib = [];
+   
+    if(n<=0){
+    return 0;
+    }else if(n===1){
+        fib[0] = 0;
+    return fib;
+    }else if(n>=2){
+   
+    fib.push(0,1);
+
+    for(var i=2; i<n; i++) {
+    fib[i] = fib[i-2] + fib[i-1];
+        }//end for loop
+
+        return fib;
+    }//end control flow
+   
+    console.log(fib);
+}
+***************************////////////////*************************
+
+var output = [];
+
+function fizzBuzz() {
+
+for(var count = 1; count < 101; count++) {
+if(count%3===0  && count%5===0) {
+output.push("fizzbuzz");
+} else if(count%3===0) {
+output.push("fizz")
+} else if(count%5===0) {
+output.push("buzz");
+} else {
+output.push(count);
+}//if statements
+}//for loop
+
+console.log(output);
+
+}//function
+***************************////////////////*************************
+
+var bottles = 99;
+
+function bottlesOfBeer() {
+while (bottles>1) {
+console.log(bottles + " bottles of beer on the wall, " + bottles + " bottles of beer! Take one down, pass it around, " + (bottles-1) + " bottles of beer on the wall!");
+bottles--;
+    }
+
+    if (bottles === 1) {
+console.log(bottles + " bottle of beer on the wall, " + bottles + " bottle of beer! Take it down, pass it around, and no more bottles of beer on the wall!");
+    }
+}
