@@ -1,0 +1,87 @@
+// var tweet=prompt("Enter your Tweet ");
+// var tweetCount=tweet.length;
+// alert("you have written "+ tweetCount + " , you have "+ (140-tweetCount));
+
+//name.slice(1,2);
+
+// var tweet=prompt("Enter your Tweet ");
+// var tweetUnder140=tweet.slice(0,140)
+// alert(tweetUnder140);
+
+// var name=prompt("What is you Name :");
+// var first=name.slice(0,1).toUpperCase();
+// var rest=name.slice(1,name.length);
+
+// alert(first+rest.toLowerCase());
+// var dogAge=prompt("Enter Dogs Age :");
+// var humanAge=(dogAge-2)*4+21;
+// alert("Your Dogs Age is in Human Age  : "+humanAge);
+
+
+
+// function lifeInWeeks(age) {
+    
+// /************Don't change the code above************/    
+    
+//     //Write your code here.
+    
+    
+    
+//      var daysLeft; // x 365
+//     var weeksLeft; // y 52
+//     var monthsLeft; // z 12
+    
+//     daysLeft= (90 - age) * 365;
+//     weeksLeft= (90 - age) * 52;
+//     monthsLeft= (90 - age) * 12;
+    
+//     console.log("You have " + daysLeft + " days, " + weeksLeft + " weeks, and " + monthsLeft + " months left.");
+    
+// /*************Don't change the code below**********/
+// }
+
+// lifeInWeeks( age = prompt("How old are you?"));
+
+// var n=Math.random(); // pseudo random number 
+// n=n*6; //range
+// //alert(Math.floor(n)+1);
+// console.log(Math.floor(n)+1);
+
+// var name1=prompt("Enter first name: ");
+// var name2=prompt("Enter second name: ");
+// var n=Math.random();
+// n=n*100;
+// n=Math.floor(n)+1;
+// if (n>70) {
+//     alert(name1 +" "+ name2 +" "+ "Love percentage is : "+n+"% you love each other very much");
+// }else{
+//     alert(name1 +" "+ name2 +" "+ "Love percentage is : "+n+"%");
+// }
+
+// var guestList=["ali","younus" , "esra"];
+// for (let i = 0; i < guestList.length; i++) {
+//     alert(guestList[i]);
+// }
+
+var output=[];
+var n=1;
+
+function fazzBazz() {
+
+    if (n%3===0 && n%5===0) {
+        output.push("FizzBuzz");
+    }
+    
+    else if (n%3===0) {
+        output.push("Fizz");
+    }
+        else if (n%5===0) {
+            output.push("Bazz");
+        }
+    else{
+         output.push(n);
+    }
+    n++;
+  
+    console.log(output);
+}
