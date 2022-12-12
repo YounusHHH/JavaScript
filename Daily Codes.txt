@@ -85,3 +85,27 @@ function fazzBazz() {
   
     console.log(output);
 }
+
+
+document.getElementsByTagName("li")
+document.getElementsByTagName("li")[2].style.color="purple";
+document.getElementsByClassName("btn")[0].style.color="red";
+//document.getElementById("title").innerHTML="Good Bay";
+document.querySelector("h1");
+document.querySelector("#title");
+document.querySelector("#list a");
+document.querySelectorAll("#list .item");
+document.querySelectorAll("#list .item")[2].style.color="blue";
+//document.querySelectorAll("#list a ")[0].style.color="red";
+document.querySelector("li a ").style.color="red";
+//document.querySelector("h1").style.fontSize="3rem"
+document.querySelector("button ").style.backgroundColor="yellow";
+document.querySelector("button").classList;
+//document.querySelector("button").classList.add("invisible");
+//document.querySelector("button").classList.remove("invisible");
+//document.querySelector("button").classList.toggle("invisible");
+//document.querySelector("button").classList.toggle("invisible");
+//document.querySelector("h1").classList.toggle("huge");
+document.querySelector("h1").innerHTML; //all inside h1
+
+document.querySelector("h1").textContent;// only h1 value
